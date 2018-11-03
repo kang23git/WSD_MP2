@@ -88,7 +88,7 @@
     @endif
     <div class="top-left links">
         <a href="{{ url('/contact') }}">Contact</a>
-
+        <a href="{{ url('/about') }}">About</a>
     </div>
 
     <div class="content">
