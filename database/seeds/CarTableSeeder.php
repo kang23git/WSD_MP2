@@ -11,7 +11,7 @@ class CarTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\User::class, 50)->create()->each(function ($u) {
+        factory(App\Car::class, 50)->create()->each(function ($u) {
             //$u->car()->save(factory(App\Car::class)->make());
         });
     }
